@@ -1,9 +1,0 @@
-{
-	"folders": [{
-		"path": "."
-	}
-],
-"settings": {
-	"build.engine.core.includeInWorkspace": false
-}
-}
