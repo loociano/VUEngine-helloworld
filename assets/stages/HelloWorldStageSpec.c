@@ -16,7 +16,6 @@ PositionedEntityROMSpec HelloWorldStageUiEntities[] =
 FontROMSpec* const HelloWorldStageFonts[] =
 {
 	&DefaultFont,
-	&VirtualBoyExtFont,
 	NULL
 };
 

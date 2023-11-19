@@ -38,12 +38,16 @@ void HelloWorldScreenState::resume(void* owner)
 void HelloWorldScreenState::print()
 {
 	const char* strHelloWorld = "Hello World";
-	FontSize textSize = Printing::getTextSize(Printing::getInstance(), strHelloWorld, "Default");
+	FontSize textSize = Printing::getTextSize(
+		Printing::getInstance(), 
+		strHelloWorld, 
+		"Default"  // Font.
+	);
 	Printing::text(
 		Printing::getInstance(),
 		strHelloWorld,
-		(__SCREEN_WIDTH >> 4) - (textSize.x >> 1),
-		12,
-		"Default"
+		(__SCREEN_WIDTH >> 4) - (textSize.x >> 1),  // x.
+		12,  // y.
+		"Default"  // Font.
 	);
 }

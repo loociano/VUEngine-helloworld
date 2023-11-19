@@ -3,8 +3,7 @@
 ###########################################################################################################
 
 # VUEngine based plugins that the project uses
-PLUGINS 						= vuengine//fonts/AstonishFont \
-								  vuengine//fonts/VirtualBoyFont
+PLUGINS 						= 
 
 # Compiler's output
 COMPILER_OUTPUT					= c
