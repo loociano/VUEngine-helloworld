@@ -4,14 +4,7 @@
 
 # VUEngine based plugins that the project uses
 PLUGINS 						= vuengine//fonts/AstonishFont \
-								  vuengine//fonts/VirtualBoyFont \
-								  vuengine//other/AutomaticPause \
-								  vuengine//other/I18n \
-								  vuengine//other/SaveDataManager \
-								  vuengine//states/splash/AdjustmentScreenVUEngine \
-								  vuengine//states/splash/AutomaticPauseSelectionScreen \
-								  vuengine//states/splash/LanguageSelectionScreen \
-								  vuengine//states/splash/PrecautionScreen
+								  vuengine//fonts/VirtualBoyFont
 
 # Compiler's output
 COMPILER_OUTPUT					= c

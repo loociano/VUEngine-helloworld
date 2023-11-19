@@ -2,8 +2,6 @@
 
 #include <Game.h>
 #include <Printing.h>
-#include <I18n.h>
-#include <Languages.h>
 #include <HelloWorldScreenState.h>
 
 extern StageROMSpec HelloWorldStage;
@@ -39,13 +37,13 @@ void HelloWorldScreenState::resume(void* owner)
 
 void HelloWorldScreenState::print()
 {
-	const char* strHelloWorld = I18n::getText(I18n::getInstance(), kStringHelloWorld);
-	FontSize textSize = Printing::getTextSize(Printing::getInstance(), strHelloWorld, "VirtualBoyExt");
+	const char* strHelloWorld = "Hello World";
+	FontSize textSize = Printing::getTextSize(Printing::getInstance(), strHelloWorld, "Default");
 	Printing::text(
 		Printing::getInstance(),
 		strHelloWorld,
 		(__SCREEN_WIDTH >> 4) - (textSize.x >> 1),
 		12,
-		"VirtualBoyExt"
+		"Default"
 	);
 }

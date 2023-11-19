@@ -1,37 +1,10 @@
-/**
- * AoC
- *
- * © Luc Rubio
- *
- * For the full copyright and license information, please view the LICENSE file
- * that was distributed with this source code.
- */
-
-//---------------------------------------------------------------------------------------------------------
-//												INCLUDES
-//---------------------------------------------------------------------------------------------------------
-
 #include <Stage.h>
 #include <Printing.h>
 #include <CharSet.h>
 #include <Fonts.h>
 
-
-//---------------------------------------------------------------------------------------------------------
-//												DECLARATIONS
-//---------------------------------------------------------------------------------------------------------
-
-extern EntitySpec LowPowerIndicatorEntity;
-
-
-//---------------------------------------------------------------------------------------------------------
-// 											ENTITY LISTS
-//---------------------------------------------------------------------------------------------------------
-
 PositionedEntityROMSpec HelloWorldStageEntities[] =
 {
-	{&LowPowerIndicatorEntity, {16, 12, 0, 0}, 0, NULL, NULL, NULL, false},
-
 	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
 };
 
@@ -40,16 +13,10 @@ PositionedEntityROMSpec HelloWorldStageUiEntities[] =
 	{NULL, {0,0,0,0}, 0, NULL, NULL, NULL, false},
 };
 
-
-//---------------------------------------------------------------------------------------------------------
-// 											PRELOAD LISTS
-//---------------------------------------------------------------------------------------------------------
-
 FontROMSpec* const HelloWorldStageFonts[] =
 {
 	&DefaultFont,
 	&VirtualBoyExtFont,
-
 	NULL
 };
 
@@ -57,10 +24,6 @@ SoundROM* HelloWorldStageSounds[] =
 {
 	NULL
 };
-
-//---------------------------------------------------------------------------------------------------------
-//											STAGE DEFINITION
-//---------------------------------------------------------------------------------------------------------
 
 StageROMSpec HelloWorldStage =
 {
