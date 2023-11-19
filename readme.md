@@ -5,6 +5,8 @@ language selection or automatic pause screens.
 
 Displays a dry 'Hello World' using default font.
 
+![](https://github.com/loociano/VUEngine-helloworld/blob/main/screenshots/helloworld.png?raw=true)
+
 Forked from https://github.com/VUEngine/VUEngine-Barebone.
 
 ## License
