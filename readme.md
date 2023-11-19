@@ -1,11 +1,15 @@
-# AoC
+# VUEngine helloworld
 
-Description
+This is helloworld in VUEngine. No plugins, no animations, no intro, no
+language selection or automatic pause screens.
 
+Displays a dry 'Hello World' using default font.
+
+Forked from https://github.com/VUEngine/VUEngine-Barebone.
 
 ## License
 
-© Luc Rubio
+© Jorge Eremiev jorgech3@gmail.com and Christian Radke c.radke@posteo.de
 
 This software is licensed under the MIT License, which means you can basically do with it whatever you
 want as long as you include the original copyright and license notice in any copy of the software/source.
